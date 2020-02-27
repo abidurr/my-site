@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fondamento|IBM+Plex+Sans|Spectral+SC&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Fondamento|IBM+Plex+Sans|Spectral+SC&display=swap");
 
 * {
   margin: 0;
@@ -92,7 +92,7 @@ header {
 }
 
 .splash h1:hover {
-  scale: 1.25;
+  transform: scale(1.25);
   cursor: default;
 }
 
@@ -118,7 +118,7 @@ header {
 }
 
 .splash p:hover {
-  scale: 1.25;
+  transform: scale(1.25);
   cursor: default;
 }
 
@@ -177,6 +177,7 @@ h1 {
 p {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 18px;
+  line-height: 1.6;
 }
 
 .skls {
@@ -206,7 +207,7 @@ p {
 }
 
 .skl-cnt:hover {
-  scale: 1.25;
+  transform: scale(1.25);
 }
 
 #about {
@@ -290,7 +291,7 @@ p {
 }
 
 .all-projs:hover {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 
 #contact p {
