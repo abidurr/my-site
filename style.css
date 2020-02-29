@@ -106,6 +106,18 @@ header {
   color: white;
   text-shadow: 1px 1px gray;
   transition: all 400ms ease-in-out;
+  animation-duration: 2s;
+  animation-name: slideintop;
+}
+
+@keyframes slideintop {
+  from {
+    margin-bottom: 100%;
+  }
+
+  to {
+    margin-bottom: 0%;
+  }
 }
 
 .splash p {
@@ -115,6 +127,18 @@ header {
   text-shadow: 1px 1px gray;
   margin-top: 20px;
   transition: all 400ms ease-in-out;
+  animation-duration: 2s;
+  animation-name: slideinbot;
+}
+
+@keyframes slideinbot {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
 }
 
 .splash p:hover {
