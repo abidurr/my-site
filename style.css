@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fondamento|IBM+Plex+Sans|Spectral+SC&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Fondamento|IBM+Plex+Sans|Spectral+SC&display=swap');
 
 * {
   margin: 0;
@@ -27,7 +27,7 @@ header {
   width: 100%;
   background: url(img/navbar.gif) repeat bottom;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
-  z-index: 3;
+  z-index: 999;
 }
 
 .logo {
@@ -92,7 +92,7 @@ header {
 }
 
 .splash h1:hover {
-  transform: scale(1.25);
+  transform: scale(1.1);
   cursor: default;
 }
 
@@ -142,7 +142,7 @@ header {
 }
 
 .splash p:hover {
-  transform: scale(1.25);
+  transform: scale(1.1);
   cursor: default;
 }
 
@@ -181,8 +181,8 @@ header {
 .ftr {
   bottom: 0;
   display: flex;
-  padding: 10%;
-  min-height: 20px;
+  padding: 20px;
+  min-height: 30vh;
   width: 100%;
   background: #005e86;
   scroll-snap-align: start;
@@ -231,7 +231,7 @@ p {
 }
 
 .skl-cnt:hover {
-  transform: scale(1.25);
+  transform: scale(1.1);
 }
 
 #about {
@@ -240,7 +240,6 @@ p {
   font-family: "IBM Plex Sans", sans-serif;
   color: black;
   font-size: 18px;
-  line-height: 1.6;
 }
 
 #about h1 {
