@@ -158,7 +158,7 @@ header {
 }*/
 
 .sctn {
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -182,7 +182,7 @@ header {
   bottom: 0;
   display: flex;
   padding: 10%;
-  min-height: 30px;
+  min-height: 20px;
   width: 100%;
   background: #005e86;
   scroll-snap-align: start;
@@ -240,6 +240,7 @@ p {
   font-family: "IBM Plex Sans", sans-serif;
   color: black;
   font-size: 18px;
+  line-height: 1.6;
 }
 
 #about h1 {
