@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/abidur
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.abidur.dev
+  * I am abidur (https://keybase.io/abidur) on keybase.
+  * I have a public key ASC75KOGtyb5cGLNAInMSzwWkwgtPlcXxbW0mOYgTBp0sgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209d3cc6e7bdb898f4a8e2b183dce117eab5d751da832696a2da04d309a390b2d40a",
+      "host": "keybase.io",
+      "kid": "0120bbe4a386b726f97062cd0089cc4b3c1693082d3e5717c5b5b498e6204c1a74b20a",
+      "uid": "4ccf09db8145a3776d21a6bbe44bc919",
+      "username": "abidur"
+    },
+    "merkle_root": {
+      "ctime": 1583966197,
+      "hash": "b2e553fdd28b4c5546e65e7ad321091a0a5ae1920de8375166e8af1a68c30cc6cbe6fe4cee4df9a7adfb7a2fcd9a11d7c50b0c6b888b9f33ce8ba62d46073c84",
+      "hash_meta": "60c18a650e0d803aae261317ebe3a17e07764c19e86074211934819e7f4a6c03",
+      "seqno": 15297991
+    },
+    "service": {
+      "entropy": "umCgNrCRG0khTMPtZApTRSKH",
+      "hostname": "www.abidur.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.0"
+  },
+  "ctime": 1583966210,
+  "expire_in": 504576000,
+  "prev": "1709e737cc6547734d014aeab2cd54734b8d5df5b932222f7d49573a439da42d",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgu+Sjhrcm+XBizQCJzEs8FpMILT5XF8W1tJjmIEwadLIKp3BheWxvYWTESpcCGsQgFwnnN8xlR3NNAUrqss1Uc0uNXfW5MiIvfUlXOkOdpC3EIP5Aqvk7+qN2m+DMwGoFld5t+Teb/2bceMt1ImGiwlF0AgHCo3NpZ8RAVoLAWa7TgKwZA70aj2DEO14erYZ736gJw0E7Y9Lbu/z5YnnJDIP87+hnwB5JWuZlmfIJU+urt+yPQDVpbyicAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIL65/KFM4buu9dLIdTPOaBMUPZnz0pOGWRDSba2kyMJio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/abidur
+
+==================================================================
