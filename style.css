@@ -92,7 +92,7 @@ header {
 }
 
 .splash h1:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   cursor: default;
 }
 
@@ -142,7 +142,7 @@ header {
 }
 
 .splash p:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   cursor: default;
 }
 
@@ -215,6 +215,7 @@ p {
 
 .skl-cnt {
   font-family: "IBM Plex Sans", serif;
+  line-height: 1.6;
   padding: 20px;
   margin: 8%;
   border: 20px solid white;
@@ -228,10 +229,11 @@ p {
   font-family: "IBM Plex Sans", serif;
   font-size: 18px;
   list-style: circle;
+
 }
 
 .skl-cnt:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #about {
@@ -261,10 +263,10 @@ p {
   padding: 100px 50px 50px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "proj1 proj2 proj3"
-    "proj6 proj4 proj5";
+    "proj4 proj5 proj6";
   /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
   grid-column-gap: 20px;
   grid-row-gap: 20px;
@@ -315,7 +317,7 @@ p {
 }
 
 .all-projs:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #contact p {
