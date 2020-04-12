@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fondamento|IBM+Plex+Sans|Spectral+SC&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Fondamento|IBM+Plex+Sans|Spectral+SC&display=swap");
 
 * {
   margin: 0;
@@ -229,7 +229,6 @@ p {
   font-family: "IBM Plex Sans", serif;
   font-size: 18px;
   list-style: circle;
-
 }
 
 .skl-cnt:hover {
@@ -263,10 +262,11 @@ p {
   padding: 100px 50px 50px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
   grid-template-areas:
-    "proj1 proj2 proj3"
-    "proj4 proj5 proj6";
+    "proj7 proj6 proj5"
+    "proj4 proj3 proj1"
+    "proj4 proj2 proj1";
   /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
   grid-column-gap: 20px;
   grid-row-gap: 20px;
