@@ -262,8 +262,9 @@ p {
   padding: 100px 50px 50px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 1fr 1fr;
   grid-template-areas:
+    "proj10 proj9 proj8"
     "proj7 proj6 proj5"
     "proj4 proj3 proj1"
     "proj4 proj2 proj1";
