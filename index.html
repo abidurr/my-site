@@ -1,416 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-    <title>Abidur Rahim | Web Developer</title>
-  </head>
-  <body>
-    <header class="header">
-      <a class="logo">Abidur Rahim</a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#splash">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <a class="resume">
-        <button onclick="window.location.href = '/AbidurRahimCV.pdf';">
-          Résumé
-        </button>
-      </a>
-    </header>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" rel="stylesheet" />
+        <title>Abidur Rahim | Web Developer</title>
+    </head>
+    <body>
+        <header class="header">
+            <a class="logo">Abidur Rahim</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#splash">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="resume">
+                <button onclick="window.location.href = '/AbidurRahimCV.pdf';">
+                    Résumé
+                </button>
+            </a>
+        </header>
 
-    <div class="splash" id="splash">
-      <h1>Hi; I am Abidur Rahim.</h1>
+        <div class="splash" id="splash">
+            <h1>Hi; I am Abidur Rahim.</h1>
 
-      <p>
-        I practice full stack web development.
-      </p>
-      <p>
-        <img height="100px" src="./img/cvicon2.png" alt="">
-      </p>
-    </div>
-
-    <div class="sctn" id="projects">
-        
-<div class="all-projs" id="proj13">
-  <img alt="To-do list app" class="proj-img" src="img/tetris.png" />
-  <p><b>Tetris</b></p>
-  <p><i>React, JavaScript, Styled-Components</i></p>
-  <p>
-      Tetris game made for the web. Built with ReactJS and Hooks.
-  </p>
-
-  <p>
-    <a href="https://github.com/abidurr/tetris-react"
-      ><img alt="Github" src="img/github.png"
-    /></a>
-    <a href="https://nostalgic-hodgkin-c4c952.netlify.app/">
-      <img alt="Webpage" src="img/world-wide-web.png"
-    /></a>
-  </p>
-</div>
-
-
-<div class="all-projs" id="proj12">
-  <img alt="To-do list app" class="proj-img" src="img/sudoku.png" />
-  <p><b>Multiplayer Sudoku</b></p>
-  <p><i>React, JavaScript, Socket.io</i></p>
-  <p>
-    Why play Sudoku alone? This online Sudoku game is meant to be played with friends, in real time! Multiple players can use an ID to join the same puzzle and complete it together.
-  </p>
-
-  <p>
-    <a href="https://github.com/abidurr/sudoku-with-friends-frontend"
-      ><img alt="Github" src="img/github.png"
-    /></a>
-    <a href="https://wedoku.herokuapp.com/">
-      <img alt="Webpage" src="img/world-wide-web.png"
-    /></a>
-  </p>
-</div>
-
-
-<div class="all-projs" id="proj11">
-    
-  <img alt="To-do list app" class="proj-img" src="img/todo.png" />
-  <p><b>To-Do List App</b></p>
-  <p><i>React, TypeScript</i></p>
-  <p>
-    A minimal, responsive to-do list app that retains tasks on the user's local storage. This lets the tasks stay private. (Check my GitHub for a MERN stack version.)
-  </p>
-
-  <p>
-    <a href="https://github.com/abidurr/todo-react-ts"
-      ><img alt="Github" src="img/github.png"
-    /></a>
-    <a href="https://5ea7959e3f79d2aaf993ea7f--gifted-villani-9be43c.netlify.app/">
-      <img alt="Webpage" src="img/world-wide-web.png"
-    /></a>
-  </p>
-</div>
-
-      <div class="all-projs" id="proj10">
-        <img alt="Game of Life" class="proj-img" src="img/gameoflife.JPG" />
-        <p><b>Game of Life</b></p>
-
-        <p><i>React, TypeScript</i></p>
-
-        <p>
-          A web version of John Conway's Game of Life.
-        </p>
-
-        <p>
-          <a href="https://github.com/abidurr/game-of-life"
-            ><img alt="Github" src="img/github.png"
-          /></a>
-          <a href="https://5e9f72bcb488807d714b8887--dreamy-saha-413cea.netlify.app/">
-            <img alt="Webpage" src="img/world-wide-web.png"
-          /></a>
-        </p>
-      </div>
-      
-      <div class="all-projs" id="proj9">
-        <img alt="COVID-19 Tracker" class="proj-img" src="img/covid.gif" />
-        <p><b>COVID-19 Case Tracker</b></p>
-
-        <p><i>React, API, Chart.js, Material-UI</i></p>
-
-        <p>
-          A responsive web app that displays charts of COVID-19 cases based on the selected region.
-        </p>
-
-        <p>
-          <a href="https://github.com/abidurr/covid19-tracker"
-            ><img alt="Github" src="img/github.png"
-          /></a>
-          <a href="https://5e9f74f2b4888077784b8f1c--festive-minsky-c2f580.netlify.app/">
-            <img alt="Webpage" src="img/world-wide-web.png"
-          /></a>
-        </p>
-      </div>
-
-      <div class="all-projs" id="proj8">
-        <img alt="Chat Web App" class="proj-img" src="img/chat.JPG" />
-        <p><b>Chat Web App</b></p>
-
-        <p><i>HTML, CSS, JS, Node, Express, Socket.io</i></p>
-
-        <p>
-          A responsive web app that allows users to join a room and chat.
-        </p>
-
-        <p>
-          <a href="https://github.com/abidurr/chat-app"
-            ><img alt="Github" src="img/github.png"
-          /></a>
-          <a href="https://chat25.herokuapp.com/">
-            <img alt="Webpage" src="img/world-wide-web.png"
-          /></a>
-        </p>
-      </div>
-
-      <div class="all-projs" id="proj7">
-        <img alt="Band Website" class="proj-img" src="img/endlessdive.gif" />
-        <p><b>Band Website</b></p>
-
-        <p><i>HTML, CSS, JS</i></p>
-
-        <p>
-          A responsive website made for the band Endless Dive. Allows music
-          streaming and event updates.
-        </p>
-
-        <p>
-          <a href="https://github.com/abidurr/endless-dive"
-            ><img alt="Github" src="img/github.png"
-          /></a>
-          <a href="https://abidurr.github.io/endless-dive/">
-            <img alt="Webpage" src="img/world-wide-web.png"
-          /></a>
-        </p>
-      </div>
-
-      <div class="all-projs" id="proj6">
-        <img alt="Issue Tracker" class="proj-img" src="img/issues.gif" />
-
-        <p><b>Issue Tracker</b></p>
-
-        <p><i>MongoDB, Express, React, Node.js</i></p>
-
-        <p>
-          A MERN stack web app that keeps track of issues and bugs. Complete
-          with user authentication (log in and sign up).
-        </p>
-
-        <p>
-          <a href="https://github.com/abidurr/issue-tracker"
-            ><img alt="Github" src="img/github.png" width="64"
-          /></a>
-          <a href="https://ar-issue-tracker.herokuapp.com/">
-            <img alt="Webpage" src="img/world-wide-web.png"
-          /></a>
-        </p>
-      </div>
-
-      <div class="all-projs" id="proj5">
-        <img alt="UCG Stories" class="proj-img" src="img/stories.gif" />
-        <p><b>College Memories</b></p>
-
-        <p><i>HTML, CSS, JS</i></p>
-
-        <p>
-          A responsive website where peers from my college can upload and view
-          stories and pictures of their time there. For privacy reasons, the
-          actual site is not linked.
-        </p>
-
-        <p>
-          <a href="https://github.com/abidurr/ucg-stories"
-            ><img alt="Github" src="img/github.png"
-          /></a>
-          <a href="https://abidurr.github.io/ucg-stories/">
-            <img alt="Webpage" src="img/world-wide-web.png"
-          /></a>
-        </p>
-      </div>
-
-      <div class="all-projs" id="proj4">
-        <img
-          alt="Random content generator"
-          class="proj-img"
-          src="img/random.gif"
-        />
-        <p><b>Random Content Generator</b></p>
-
-        <p><i>HTML, CSS, JS</i></p>
-
-        <p>A website that generates random pictures, countries and colors.</p>
-
-        <p>
-          <a href="https://github.com/abidurr/random-content-generator"
-            ><img alt="Github" src="img/github.png" width="64px"
-          /></a>
-          <a href="https://abidurr.github.io/random-content-generator/">
-            <img alt="Webpage" src="img/world-wide-web.png"
-          /></a>
-        </p>
-      </div>
-
-      <div class="all-projs" id="proj3">
-        <p><b>Machine Learning on Telescope Data</b></p>
-
-        <p><i>Mathematica</i></p>
-
-        <p>
-          Made five machine learning models to deduce which performs the most
-          optimally in the classification of gamma rays and hadron showers from
-          data of the MAGIC telescope (spoiler alert: random forests worked
-          best, followed by neural networks).
-        </p>
-
-        <p>
-          <a href="https://github.com/abidurr/bachelor-thesis"
-            ><img alt="Github" src="img/github.png" width="64"
-          /></a>
-        </p>
-      </div>
-
-      <div class="all-projs" id="proj2">
-        <p><b>Group Project: Gaming the Planet</b></p>
-
-        <p><i>NetLogo</i></p>
-
-        <p>
-          A research project involving agent-based modeling. The objective was
-          to investigate the complexity of an artificial planet where a
-          population interacts within its natural and social systems in order to
-          survive. Project is private.
-        </p>
-
-        <p></p>
-      </div>
-
-      <div class="all-projs" id="proj1">
-        <img
-          alt="Database Management System"
-          class="proj-img"
-          src="img/pmdbms.gif"
-        />
-        <p><b>Database Management System</b></p>
-
-        <p><em>Visual Basic, SQL, Access</em></p>
-
-        <p>
-          An offline database management system built for a music store. It
-          organizes sales, stocks, clients, and invoices. Complete with log-in
-          security, validation checks, query, and report creation options.
-          Includes complete user and software documentations.
-        </p>
-
-        <p>
-          <a href="https://github.com/abidurr/music-DBMS"
-            ><img alt="Github" src="img/github.png" width="64"
-          /></a>
-        </p>
-      </div>
-    </div>
-
-    <div class="sctn" id="skills">
-      <h1>Skills</h1>
-      <div class="skls">
-        <div class="skl-cnt">
-          <b>Front-end</b>
-
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-          </ul>
+            <p>
+                I practice full stack web development.
+            </p>
+            <p>
+                <a
+                    href="/AbidurRahimCV.pdf"
+                    target="_blank"
+                    class="splash-icon"
+                >
+                    <img height="60px" src="./img/cvicon1.png" alt="Resume" />
+                </a>
+                <a
+                    href="https://github.com/abidurr/"
+                    target="_blank"
+                    class="splash-icon"
+                >
+                    <img height="60px" src="./img/github120.png" alt="GitHub" />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/abidur-rahim-803758177/"
+                    target="_blank"
+                    class="splash-icon"
+                >
+                    <img
+                        height="60px"
+                        src="./img/linkedin128.png"
+                        alt="LinkedIn"
+                    />
+                </a>
+            </p>
+            <a href="#projects" id="scroll-down">
+                <img height="100px" src="./img/down-arrow.png" alt="" />
+            </a>
         </div>
 
-        <div class="skl-cnt">
-          <b>Back-end</b>
+        <div class="sctn" id="projects">
+            <div class="all-projs" id="proj13">
+                <img
+                    alt="To-do list app"
+                    class="proj-img"
+                    src="img/tetris.png"
+                />
+                <p><b>Tetris</b></p>
+                <p><i>React, JavaScript, Styled-Components</i></p>
+                <p>
+                    Tetris game made for the web. Built with ReactJS and Hooks.
+                </p>
 
-          <ul>
-            <li>Python</li>
-            <li>Node.js</li>
-            <li>TypeScript</li>
-            <li>Express</li>
-            <li>Go</li>
-          </ul>
+                <p>
+                    <a href="https://github.com/abidurr/tetris-react"
+                        ><img alt="Github" src="img/github.png"
+                    /></a>
+                    <a href="https://nostalgic-hodgkin-c4c952.netlify.app/">
+                        <img alt="Webpage" src="img/world-wide-web.png"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj12">
+                <img
+                    alt="To-do list app"
+                    class="proj-img"
+                    src="img/sudoku.png"
+                />
+                <p><b>Multiplayer Sudoku</b></p>
+                <p><i>React, JavaScript, Socket.io</i></p>
+                <p>
+                    Why play Sudoku alone? This online Sudoku game is meant to
+                    be played with friends, in real time! Multiple players can
+                    use an ID to join the same puzzle and complete it together.
+                </p>
+
+                <p>
+                    <a
+                        href="https://github.com/abidurr/sudoku-with-friends-frontend"
+                        ><img alt="Github" src="img/github.png"
+                    /></a>
+                    <a href="https://wedoku.herokuapp.com/">
+                        <img alt="Webpage" src="img/world-wide-web.png"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj11">
+                <img alt="To-do list app" class="proj-img" src="img/todo.png" />
+                <p><b>To-Do List App</b></p>
+                <p><i>React, TypeScript</i></p>
+                <p>
+                    A minimal, responsive to-do list app that retains tasks on
+                    the user's local storage. This lets the tasks stay private.
+                    (Check my GitHub for a MERN stack version.)
+                </p>
+
+                <p>
+                    <a href="https://github.com/abidurr/todo-react-ts"
+                        ><img alt="Github" src="img/github.png"
+                    /></a>
+                    <a
+                        href="https://5ea7959e3f79d2aaf993ea7f--gifted-villani-9be43c.netlify.app/"
+                    >
+                        <img alt="Webpage" src="img/world-wide-web.png"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj10">
+                <img
+                    alt="Game of Life"
+                    class="proj-img"
+                    src="img/gameoflife.JPG"
+                />
+                <p><b>Game of Life</b></p>
+
+                <p><i>React, TypeScript</i></p>
+
+                <p>
+                    A web version of John Conway's Game of Life.
+                </p>
+
+                <p>
+                    <a href="https://github.com/abidurr/game-of-life"
+                        ><img alt="Github" src="img/github.png"
+                    /></a>
+                    <a
+                        href="https://5e9f72bcb488807d714b8887--dreamy-saha-413cea.netlify.app/"
+                    >
+                        <img alt="Webpage" src="img/world-wide-web.png"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj9">
+                <img
+                    alt="COVID-19 Tracker"
+                    class="proj-img"
+                    src="img/covid.gif"
+                />
+                <p><b>COVID-19 Case Tracker</b></p>
+
+                <p><i>React, API, Chart.js, Material-UI</i></p>
+
+                <p>
+                    A responsive web app that displays charts of COVID-19 cases
+                    based on the selected region.
+                </p>
+
+                <p>
+                    <a href="https://github.com/abidurr/covid19-tracker"
+                        ><img alt="Github" src="img/github.png"
+                    /></a>
+                    <a
+                        href="https://5e9f74f2b4888077784b8f1c--festive-minsky-c2f580.netlify.app/"
+                    >
+                        <img alt="Webpage" src="img/world-wide-web.png"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj8">
+                <img alt="Chat Web App" class="proj-img" src="img/chat.JPG" />
+                <p><b>Chat Web App</b></p>
+
+                <p><i>HTML, CSS, JS, Node, Express, Socket.io</i></p>
+
+                <p>
+                    A responsive web app that allows users to join a room and
+                    chat.
+                </p>
+
+                <p>
+                    <a href="https://github.com/abidurr/chat-app"
+                        ><img alt="Github" src="img/github.png"
+                    /></a>
+                    <a href="https://chat25.herokuapp.com/">
+                        <img alt="Webpage" src="img/world-wide-web.png"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj7">
+                <img
+                    alt="Band Website"
+                    class="proj-img"
+                    src="img/endlessdive.gif"
+                />
+                <p><b>Band Website</b></p>
+
+                <p><i>HTML, CSS, JS</i></p>
+
+                <p>
+                    A responsive website made for the band Endless Dive. Allows
+                    music streaming and event updates.
+                </p>
+
+                <p>
+                    <a href="https://github.com/abidurr/endless-dive"
+                        ><img alt="Github" src="img/github.png"
+                    /></a>
+                    <a href="https://abidurr.github.io/endless-dive/">
+                        <img alt="Webpage" src="img/world-wide-web.png"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj6">
+                <img
+                    alt="Issue Tracker"
+                    class="proj-img"
+                    src="img/issues.gif"
+                />
+
+                <p><b>Issue Tracker</b></p>
+
+                <p><i>MongoDB, Express, React, Node.js</i></p>
+
+                <p>
+                    A MERN stack web app that keeps track of issues and bugs.
+                    Complete with user authentication (log in and sign up).
+                </p>
+
+                <p>
+                    <a href="https://github.com/abidurr/issue-tracker"
+                        ><img alt="Github" src="img/github.png" width="64"
+                    /></a>
+                    <a href="https://ar-issue-tracker.herokuapp.com/">
+                        <img alt="Webpage" src="img/world-wide-web.png"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj5">
+                <img alt="UCG Stories" class="proj-img" src="img/stories.gif" />
+                <p><b>College Memories</b></p>
+
+                <p><i>HTML, CSS, JS</i></p>
+
+                <p>
+                    A responsive website where peers from my college can upload
+                    and view stories and pictures of their time there. For
+                    privacy reasons, the actual site is not linked.
+                </p>
+
+                <p>
+                    <a href="https://github.com/abidurr/ucg-stories"
+                        ><img alt="Github" src="img/github.png"
+                    /></a>
+                    <a href="https://abidurr.github.io/ucg-stories/">
+                        <img alt="Webpage" src="img/world-wide-web.png"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj4">
+                <img
+                    alt="Random content generator"
+                    class="proj-img"
+                    src="img/random.gif"
+                />
+                <p><b>Random Content Generator</b></p>
+
+                <p><i>HTML, CSS, JS</i></p>
+
+                <p>
+                    A website that generates random pictures, countries and
+                    colors.
+                </p>
+
+                <p>
+                    <a
+                        href="https://github.com/abidurr/random-content-generator"
+                        ><img alt="Github" src="img/github.png" width="64px"
+                    /></a>
+                    <a
+                        href="https://abidurr.github.io/random-content-generator/"
+                    >
+                        <img alt="Webpage" src="img/world-wide-web.png"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj3">
+                <p><b>Machine Learning on Telescope Data</b></p>
+
+                <p><i>Mathematica</i></p>
+
+                <p>
+                    Made five machine learning models to deduce which performs
+                    the most optimally in the classification of gamma rays and
+                    hadron showers from data of the MAGIC telescope (spoiler
+                    alert: random forests worked best, followed by neural
+                    networks).
+                </p>
+
+                <p>
+                    <a href="https://github.com/abidurr/bachelor-thesis"
+                        ><img alt="Github" src="img/github.png" width="64"
+                    /></a>
+                </p>
+            </div>
+
+            <div class="all-projs" id="proj2">
+                <p><b>Group Project: Gaming the Planet</b></p>
+
+                <p><i>NetLogo</i></p>
+
+                <p>
+                    A research project involving agent-based modeling. The
+                    objective was to investigate the complexity of an artificial
+                    planet where a population interacts within its natural and
+                    social systems in order to survive. Project is private.
+                </p>
+
+                <p></p>
+            </div>
+
+            <div class="all-projs" id="proj1">
+                <img
+                    alt="Database Management System"
+                    class="proj-img"
+                    src="img/pmdbms.gif"
+                />
+                <p><b>Database Management System</b></p>
+
+                <p><em>Visual Basic, SQL, Access</em></p>
+
+                <p>
+                    An offline database management system built for a music
+                    store. It organizes sales, stocks, clients, and invoices.
+                    Complete with log-in security, validation checks, query, and
+                    report creation options. Includes complete user and software
+                    documentations.
+                </p>
+
+                <p>
+                    <a href="https://github.com/abidurr/music-DBMS"
+                        ><img alt="Github" src="img/github.png" width="64"
+                    /></a>
+                </p>
+            </div>
         </div>
 
-        <div class="skl-cnt">
-          <b>Data-related </b>
+        <div class="sctn" id="skills">
+            <h1>Skills</h1>
+            <div class="skls">
+                <div class="skl-cnt">
+                    <b>Front-end</b>
 
-          <ul>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-            <li>R</li>
-            <li>Mathematica</li>
-            <li>MatLab</li>
-          </ul>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                    </ul>
+                </div>
+
+                <div class="skl-cnt">
+                    <b>Back-end</b>
+
+                    <ul>
+                        <li>Python</li>
+                        <li>Node.js</li>
+                        <li>TypeScript</li>
+                        <li>Express</li>
+                        <li>Go</li>
+                    </ul>
+                </div>
+
+                <div class="skl-cnt">
+                    <b>Data-related </b>
+
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                        <li>R</li>
+                        <li>Mathematica</li>
+                        <li>MatLab</li>
+                    </ul>
+                </div>
+
+                <div class="skl-cnt">
+                    <b>Others</b>
+
+                    <ul>
+                        <li>Bash</li>
+                        <li>C++</li>
+                        <li>Git</li>
+                        <li>NetLogo</li>
+                        <li>Basic</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-        <div class="skl-cnt">
-          <b>Others</b>
+        <div class="sctn" id="about">
+            <img
+                alt="Me"
+                id="mypic"
+                src="img/me.png"
+                style="width: 200px; height: 200px;"
+            />
+            <h1>About Me</h1>
 
-          <ul>
-            <li>Bash</li>
-            <li>C++</li>
-            <li>Git</li>
-            <li>NetLogo</li>
-            <li>Basic</li>
-          </ul>
+            <p>
+                I was first introduced to coding with HTML at the age of eleven.
+                My indulgence with programming has persisted ever since. My
+                curiosity led me through programming languages including Basic,
+                C++, JavaScript, and then eventually to my favorite of them all,
+                Python. Around the same time I got my hands on an Arduino Uno
+                and discovered the excitement of being able to control hardware.
+                During high school I helped create the ICT Club and participated
+                in variour science fairs and Olympiads. After high school, I
+                ended up becoming a teaching assistant and tutoring students. I
+                taught high school seniors Math, Physics, and CS. Subsequently,
+                I ended up going to college in Groningen, the Netherlands,
+                initially leaning towards a degree in Physics and Astronomy.
+                Naturally, programming stuck around in my courses and I could
+                not resist picking up courses on Data Science, Databases,
+                Information Security, Machine Learning, Data Structures, and
+                introductory CS courses. I ended up completing a degree in
+                Computational Science; implementing my computer science skills
+                to the real world data in the field of Astronomy and Physics. My
+                path led me through a lot of advanced mathematics and
+                familiarized me to computational languages such as R,
+                Mathematica, MatLab, SQL, and of course, Python again. I also
+                minored in Humanities. After completing my BSc and moving to
+                NYC, I wondered what I wanted to do next. Whatever it would be,
+                it had to do with computers. I decided to focus on the web
+                development that sparked my love for coding in the first place.
+                That decision has brought me here. Now I specialize in full
+                stack web development using ReactJS and TypeScript (i.e. MERN)
+                as my primary tech stack.
+            </p>
         </div>
-      </div>
-    </div>
 
-    <div class="sctn" id="about">
-      <img
-        alt="Me"
-        id="mypic"
-        src="img/me.png"
-        style="width: 200px; height: 200px;"
-      />
-      <h1>About Me</h1>
+        <div class="sctn" id="contact">
+            <p>Interested in working with me? Contact me by e-mail:</p>
+            <br />
+            <p>
+                <a style="text-decoration: none;" href="mailto:abidur@tuta.io"
+                    >abidur@tuta.io</a
+                >
+            </p>
+        </div>
 
-      <p>
-        I was introduced to coding with HTML at the age of twelve. My indulgence
-        with programming has persisted ever since. My curiosity led me through
-        programming languages including Basic, C++, and then eventually to my
-        favorite of them all, Python. Around the same time I got my hands on an
-        Arduino Uno and discovered the excitement of being able to control
-        hardware. After high school, I ended up becoming a teaching assistant
-        and tutoring students. I taught high school seniors Math and Physics.
-        Subsequently, I ended up going to college in Groningen, the Netherlands,
-        initially pursuing a degree in Physics and Astronomy. Naturally,
-        programming stuck around in my courses and I could not resist picking up
-        courses on Data Science, Databases, Information Security, Machine
-        Learning, and introductory CS courses. I ended up completing a degree in
-        Computational Science; implementing my computer science skills to the
-        world of data in the field of Astronomy and Physics. My path led me
-        through a lot of advanced mathematics and familiarized me to
-        computational languages such as R, Mathematica, MatLab, SQL, and of
-        course, Python again. I also minored in Humanities and had Ethics in
-        STEM courses. After completing my BSc and moving to NYC, I wondered what
-        I wanted to do next. Whatever it would be, it had to do with computers.
-        I completed Cybersecurity courses on EdX. But then I decided to go back
-        to web development; to the HTML et al that sparked my love for coding in
-        the first place. That decision has brought me here.
-      </p>
-    </div>
+        <div class="ftr">
+            <p>
+                <a href="https://github.com/abidurr/"
+                    ><img
+                        alt="github"
+                        src="img/github32.png"
+                        style="margin: 20px;"
+                /></a>
+                <a href="https://www.linkedin.com/in/abidur-rahim-803758177/">
+                    <img
+                        alt="linkedin"
+                        src="img/linkedin.png"
+                        style="margin: 20px;"
+                /></a>
+            </p>
 
-    <div class="sctn" id="contact">
-      <p>Interested in working with me? Contact me by e-mail:</p>
-      <br />
-      <p>
-        <a style="text-decoration: none;" href="mailto:abidur@tuta.io"
-          >abidur@tuta.io</a
-        >
-      </p>
-    </div>
+            <p></p>
 
-    <div class="ftr">
-      <p>
-        <a href="https://github.com/abidurr/"
-          ><img alt="github" src="img/github32.png" style="margin: 20px;"
-        /></a>
-        <a href="https://www.linkedin.com/in/abidur-rahim-803758177/">
-          <img alt="linkedin" src="img/linkedin.png" style="margin: 20px;"
-        /></a>
-      </p>
-
-      <p></p>
-
-      <p>Copyright &copy; 2020 Abidur Rahim. All rights reserved.</p>
-    </div>
-  </body>
+            <p>Copyright &copy; 2020 Abidur Rahim. All rights reserved.</p>
+        </div>
+    </body>
 </html>
