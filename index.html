@@ -4,33 +4,42 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="style.css" rel="stylesheet" />
-        <title>Abidur Rahim | Web Developer</title>
+        <link rel="icon" href="/favicon.ico">
+        <title>Abidur Rahim | Full Stack Web Engineer</title>
         <meta name="Description" CONTENT="Full Time Web Engineer (Full Stack Developer) with a background in Astrophysics and Data Analysis. Part Time Writer."
+
     </head>
     <body>
         <header class="header">
-            <a class="logo">Abidur Rahim</a>
+            <a class="logo" href="#splash">Abidur.dev</a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#splash">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <!--<li><a href="#splash">Home</a></li>-->
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <a class="resume">
-                <button onclick="window.location.href = '/AbidurRahimCV.pdf';">
+            <!--<a class="resume">-->
+                <!--<button onclick="window.location.href = '/AbidurRahimCV.pdf';">
                     Résumé
-                </button>
-            </a>
+                </button>-->
+                <div class="button-wrap">
+                  <button>
+                    <span>Résumé</span>
+                  </button>
+                  <div class="button-shadow"></div>
+                </div>
+            <!--</a>-->
         </header>
 
         <div class="splash" id="splash">
-            <h1>Hi; I am Abidur Rahim.</h1>
+            <h1>Abidur Rahim</h1>
 
             <p>
-                I'm a full stack engineer with 6+ years of professional experience.
+                Full Stack Web Engineer with 6+ years of experience
             </p>
             <p>
                 <a
@@ -59,12 +68,123 @@
                     />
                 </a>
             </p>
-            <a href="#projects" id="scroll-down">
+            <a href="#experience" id="scroll-down">
                 <img height="100px" src="./img/down-arrow.png" alt="" />
             </a>
         </div>
 
-        <div class="sctn" id="projects">
+        <div class="middle-nav">
+            <ul class="nav-links">
+                <!--<li><a href="#splash">Home</a></li>-->
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">LinkedIn</a></li>
+                <li><a href="#contact">GitHub</a></li>
+                <li><a href="#contact">Resume</a></li>
+            </ul>
+        </div>
+
+        <div class="sctn" id="experience">
+            <h1 style="color: white">Experience</h1>
+            <div class="experiences-container">
+                <div class="experience">
+                    <h2>Sellfire</h2>
+                    <h3>2024 - 2026<b> &nbsp; | &nbsp; Austin, TX</b>, USA</h3>
+
+                    <ul>
+                        <li>Founding engineer who started frontend project</li>
+                        <li>Most number of commits to frontend codebase</li>
+                        <li>Significant contributor to backend codebase</li>
+                    </ul>
+
+                    <div class="experience-buttons-div">
+                        <a href="https://sellfire.com/" target="_blank">
+                            <img alt="Webpage" src="img/www.png"
+                        />Website</a>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h2>Rapptr Labs</h2>
+                    <h3>2020 - 2024<b> &nbsp; | &nbsp; New York, NY</b>, USA</h3>
+                    <ul>
+                        <li> Worked on 16+ consumer-facing applications</li>
+                        <li>Tackled both backend and frontend based on demand</li>
+                        <li>Agency experience in a fast-paced agile environment</li>
+                    </ul>
+
+                    <div class="experience-buttons-div">
+                        <a href="https://rapptrlabs.com/" target="_blank">
+                            <img alt="Webpage" src="img/www.png"
+                        />Website</a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="sctn" id="skills">
+            <h1 style="color: white">Skills</h1>
+            <div class="skls">
+                <div class="skl-cnt">
+                    <h3>Front-end</h3>
+
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                    </ul>
+                </div>
+
+                <div class="skl-cnt">
+                    <h3>Back-end</h3>
+
+                    <ul>
+                        <li>Python</li>
+                        <li>Node.js</li>
+                        <li>TypeScript</li>
+                        <li>Express</li>
+                        <li>Go</li>
+                    </ul>
+                </div>
+
+                <div class="skl-cnt">
+                    <h3>Data-end</h3>
+
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                        <li>R</li>
+                        <li>Mathematica</li>
+                        <li>MatLab</li>
+                    </ul>
+                </div>
+
+                <div class="skl-cnt">
+                    <h3>Others</h3>
+
+                    <ul>
+                        <li>Bash</li>
+                        <li>C++</li>
+                        <li>Git</li>
+                        <li>NetLogo</li>
+                        <li>Basic</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sctn">
+        <h1 style="color: white">Projects</h1>
+<div  id="projects">
+
             <div class="all-projs" id="proj13">
                 <img
                     alt="To-do list app"
@@ -77,14 +197,14 @@
                     Tetris game made for the web. Built with ReactJS and Hooks.
                 </p>
 
-                <p>
+                <div class="proj-buttons-div">
                     <a href="https://github.com/abidurr/tetris-react"
-                        ><img alt="Github" src="img/github.png"
-                    /></a>
+                        ><img alt="Github" src="img/github32.png"
+                    />Github</a>
                     <a href="https://nostalgic-hodgkin-c4c952.netlify.app/">
-                        <img alt="Webpage" src="img/world-wide-web.png"
-                    /></a>
-                </p>
+                        <img alt="Webpage" src="img/www.png"
+                    />Website</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj12">
@@ -101,15 +221,15 @@
                     use an ID to join the same puzzle and complete it together.
                 </p>
 
-                <p>
+                <div class="proj-buttons-div">
                     <a
                         href="https://github.com/abidurr/sudoku-with-friends-frontend"
-                        ><img alt="Github" src="img/github.png"
-                    /></a>
+                        ><img alt="Github" src="img/github32.png"
+                    />Github</a>
                     <a href="https://wedoku.herokuapp.com/">
-                        <img alt="Webpage" src="img/world-wide-web.png"
-                    /></a>
-                </p>
+                        <img alt="Webpage" src="img/www.png"
+                    />Website</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj11">
@@ -122,16 +242,17 @@
                     (Check my GitHub for a MERN stack version.)
                 </p>
 
-                <p>
+
+                <div class="proj-buttons-div">
                     <a href="https://github.com/abidurr/todo-react-ts"
-                        ><img alt="Github" src="img/github.png"
-                    /></a>
+                        ><img alt="Github" src="img/github32.png"
+                    />Github</a>
                     <a
                         href="https://5ea7959e3f79d2aaf993ea7f--gifted-villani-9be43c.netlify.app/"
                     >
-                        <img alt="Webpage" src="img/world-wide-web.png"
-                    /></a>
-                </p>
+                        <img alt="Webpage" src="img/www.png"
+                    />Website</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj10">
@@ -148,16 +269,17 @@
                     A web version of John Conway's Game of Life.
                 </p>
 
-                <p>
+
+                <div class="proj-buttons-div">
                     <a href="https://github.com/abidurr/game-of-life"
-                        ><img alt="Github" src="img/github.png"
-                    /></a>
+                        ><img alt="Github" src="img/github32.png"
+                    />Github</a>
                     <a
                         href="https://5e9f72bcb488807d714b8887--dreamy-saha-413cea.netlify.app/"
                     >
-                        <img alt="Webpage" src="img/world-wide-web.png"
-                    /></a>
-                </p>
+                        <img alt="Webpage" src="img/www.png"
+                    />Website</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj9">
@@ -175,16 +297,17 @@
                     based on the selected region.
                 </p>
 
-                <p>
+
+                <div class="proj-buttons-div">
                     <a href="https://github.com/abidurr/covid19-tracker"
-                        ><img alt="Github" src="img/github.png"
-                    /></a>
+                        ><img alt="Github" src="img/github32.png"
+                    />Github</a>
                     <a
                         href="https://5e9f74f2b4888077784b8f1c--festive-minsky-c2f580.netlify.app/"
                     >
-                        <img alt="Webpage" src="img/world-wide-web.png"
-                    /></a>
-                </p>
+                        <img alt="Webpage" src="img/www.png"
+                    />Website</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj8">
@@ -198,14 +321,15 @@
                     chat.
                 </p>
 
-                <p>
+
+                <div class="proj-buttons-div">
                     <a href="https://github.com/abidurr/chat-app"
-                        ><img alt="Github" src="img/github.png"
-                    /></a>
+                        ><img alt="Github" src="img/github32.png"
+                    />Github</a>
                     <a href="https://chat25.herokuapp.com/">
-                        <img alt="Webpage" src="img/world-wide-web.png"
-                    /></a>
-                </p>
+                        <img alt="Webpage" src="img/www.png"
+                    />Website</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj7">
@@ -223,14 +347,14 @@
                     music streaming and event updates.
                 </p>
 
-                <p>
+                <div class="proj-buttons-div">
                     <a href="https://github.com/abidurr/endless-dive"
-                        ><img alt="Github" src="img/github.png"
-                    /></a>
+                        ><img alt="Github" src="img/github32.png"
+                    />Github</a>
                     <a href="https://abidurr.github.io/endless-dive/">
-                        <img alt="Webpage" src="img/world-wide-web.png"
-                    /></a>
-                </p>
+                        <img alt="Webpage" src="img/www.png"
+                    />Website</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj6">
@@ -249,14 +373,14 @@
                     Complete with user authentication (log in and sign up).
                 </p>
 
-                <p>
+                <div class="proj-buttons-div">
                     <a href="https://github.com/abidurr/issue-tracker"
-                        ><img alt="Github" src="img/github.png" width="64"
-                    /></a>
+                        ><img alt="Github" src="img/github32.png" width="64"
+                    />Github</a>
                     <a href="https://ar-issue-tracker.herokuapp.com/">
-                        <img alt="Webpage" src="img/world-wide-web.png"
-                    /></a>
-                </p>
+                        <img alt="Webpage" src="img/www.png"
+                    />Website</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj5">
@@ -271,14 +395,15 @@
                     privacy reasons, the actual site is not linked.
                 </p>
 
-                <p>
+
+                <div class="proj-buttons-div">
                     <a href="https://github.com/abidurr/ucg-stories"
-                        ><img alt="Github" src="img/github.png"
-                    /></a>
+                        ><img alt="Github" src="img/github32.png"
+                    />Github</a>
                     <a href="https://abidurr.github.io/ucg-stories/">
-                        <img alt="Webpage" src="img/world-wide-web.png"
-                    /></a>
-                </p>
+                        <img alt="Webpage" src="img/www.png"
+                    />Website</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj4">
@@ -296,17 +421,18 @@
                     colors.
                 </p>
 
-                <p>
+
+                <div class="proj-buttons-div">
                     <a
                         href="https://github.com/abidurr/random-content-generator"
-                        ><img alt="Github" src="img/github.png" width="64px"
-                    /></a>
+                        ><img alt="Github" src="img/github32.png" width="64px"
+                    />Github</a>
                     <a
                         href="https://abidurr.github.io/random-content-generator/"
                     >
-                        <img alt="Webpage" src="img/world-wide-web.png"
-                    /></a>
-                </p>
+                        <img alt="Webpage" src="img/www.png"
+                    />Website</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj3">
@@ -322,11 +448,12 @@
                     networks).
                 </p>
 
-                <p>
+
+                <div class="proj-buttons-div">
                     <a href="https://github.com/abidurr/bachelor-thesis"
-                        ><img alt="Github" src="img/github.png" width="64"
-                    /></a>
-                </p>
+                        ><img alt="Github" src="img/github32.png" width="64"
+                    /> Github</a>
+                </div>
             </div>
 
             <div class="all-projs" id="proj2">
@@ -362,74 +489,25 @@
                     documentations.
                 </p>
 
-                <p>
+
+                <div class="proj-buttons-div">
                     <a href="https://github.com/abidurr/music-DBMS"
-                        ><img alt="Github" src="img/github.png" width="64"
-                    /></a>
-                </p>
-            </div>
-        </div>
-
-        <div class="sctn" id="skills">
-            <h1>Skills</h1>
-            <div class="skls">
-                <div class="skl-cnt">
-                    <b>Front-end</b>
-
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>React.js</li>
-                    </ul>
-                </div>
-
-                <div class="skl-cnt">
-                    <b>Back-end</b>
-
-                    <ul>
-                        <li>Python</li>
-                        <li>Node.js</li>
-                        <li>TypeScript</li>
-                        <li>Express</li>
-                        <li>Go</li>
-                    </ul>
-                </div>
-
-                <div class="skl-cnt">
-                    <b>Data-related </b>
-
-                    <ul>
-                        <li>MongoDB</li>
-                        <li>MySQL</li>
-                        <li>R</li>
-                        <li>Mathematica</li>
-                        <li>MatLab</li>
-                    </ul>
-                </div>
-
-                <div class="skl-cnt">
-                    <b>Others</b>
-
-                    <ul>
-                        <li>Bash</li>
-                        <li>C++</li>
-                        <li>Git</li>
-                        <li>NetLogo</li>
-                        <li>Basic</li>
-                    </ul>
+                        ><img alt="Github" src="img/github32.png" width="64"
+                    />Github</a>
                 </div>
             </div>
         </div>
 
+</div>
         <div class="sctn" id="about">
+
+            <h1 >About Me</h1>
             <img
                 alt="Me"
                 id="mypic"
                 src="img/me.png"
-                style="width: 200px; height: 200px;"
+                style="width: 200px; height: 200px; margin-top: 40px;"
             />
-            <h1>About Me</h1>
 
             <p>
                 I was first introduced to coding with HTML at the age of eleven.
@@ -464,13 +542,36 @@
         </div>
 
         <div class="sctn" id="contact">
-            <p>Interested in working with me? Contact me by e-mail:</p>
+            <p style="font-size: 28px; color: #cccccc; letter-spacing: 0.5px; margin-bottom: 8px;">Interested in working with me?</p>
             <br />
-            <p>
+            <!--<p>
                 <a style="text-decoration: none;" href="mailto:abidur@tuta.io"
                     >abidur@tuta.io</a
                 >
             </p>
+            <br />-->
+
+            <div class="button-wrap">
+                <a href="mailto:abidur@tuta.io" target="_blank"
+                    >
+              <button>
+                <span>Send Me an Email</span>
+              </button>
+              </a>
+              <div class="button-shadow"></div>
+            </div>
+
+            <br />
+
+            <div class="button-wrap">
+                <a href="https://cal.com/abidur/30min" target="_blank"
+                    >
+              <button>
+                <span>Schedule Meeting</span>
+              </button>
+              </a>
+              <div class="button-shadow"></div>
+            </div>
         </div>
 
         <div class="ftr">
@@ -481,17 +582,30 @@
                         src="img/github32.png"
                         style="margin: 20px;"
                 /></a>
-                <a href="https://www.linkedin.com/in/abidur-rahim-803758177/">
+                <a href="https://www.linkedin.com/in/abidur-rahim-803758177/" target="_blank">
                     <img
                         alt="linkedin"
                         src="img/linkedin.png"
                         style="margin: 20px;"
                 /></a>
+                <a href="./AbidurRahimCV.pdf" target="_blank">
+
+                    <img
+                        alt="resume"
+                        src="./img/cvicon1.png"
+                        style="height: 32px; width: 26px; margin: 20px;"
+                    />
+                </a>
+                <a href="mailto:abidur@tuta.io">
+                    Email</a>
+                <a href="https://cal.com/abidur/30min" target="_blank">
+                    Meeting</a>
+
             </p>
 
             <p></p>
 
-            <p>Copyright &copy; 2020 Abidur Rahim. All rights reserved.</p>
+            <p>Copyright &copy; 2026 Abidur Rahim. All rights reserved.</p>
         </div>
     </body>
 </html>
