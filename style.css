@@ -407,6 +407,80 @@ p {
         0 40px 120px rgba(0, 0, 0, 0.35);
 }
 
+.aboutmebox-container {
+    font-family: "Cormorant", serif;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.aboutmebox {
+    font-family: "Cormorant", serif;
+    /*min-width: 500px;*/
+    min-width: 500px;
+    max-width: 600px;
+    min-height: 280px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    line-height: 1.6;
+    padding: 40px 60px;
+    margin: 40px;
+    /*border: 20px solid white;*/
+    /*background-color: white;*/
+    /*box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.4);*/
+    transition: all 400ms ease-in-out;
+    border-radius: 20px;
+
+    background: rgba(5, 5, 5, 0.33);
+    /*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);*/
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: white;
+
+    box-shadow:
+        0 4px 6px rgba(0, 8, 0, 0.7),
+        0 5px 15px rgba(0, 0, 0, 0.1);
+    h2 {
+        font-family: "Spectral SC";
+        font-size: 24px;
+        padding-bottom: 12px;
+        text-align: center;
+        width: 100%;
+    }
+    h3 {
+        /*font-family: "Spectral SC";*/
+        font-size: 20px;
+        padding-left: 12px;
+        margin-bottom: 12px;
+    }
+    p {
+        /*justify text*/
+        text-align: justify;
+    }
+}
+
+.aboutmebox ul li {
+    font-family: "Cormorant", serif;
+    font-size: 18px;
+    list-style: circle;
+    list-style-type: "✔";
+    padding-left: 12px;
+}
+
+.aboutmebox:hover {
+    transform: scale(1.03);
+    transition: 400ms ease-in-out;
+    box-shadow:
+        0 20px 100px rgba(0, 8, 0, 0.45),
+        0 40px 120px rgba(0, 0, 0, 0.35);
+}
+
 #about {
     display: flex;
     flex-direction: column;
@@ -649,6 +723,10 @@ p {
     }
     .experiences-container {
         /*display: grid;*/
+        flex-direction: column;
+    }
+    .aboutmebox-container {
+        display: flex;
         flex-direction: column;
     }
 
