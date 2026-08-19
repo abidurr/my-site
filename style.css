@@ -361,7 +361,7 @@ p {
     flex-direction: column;
     line-height: 1.6;
     padding: 40px 60px;
-    margin: 40px;
+    margin: 20px;
     /*border: 20px solid white;*/
     /*background-color: white;*/
     /*box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.4);*/
@@ -412,8 +412,10 @@ p {
     display: flex;
     flex-direction: row;
     justify-items: space-around;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    /*max-width: 90vw;*/
+    /*flex-direction: column;*/
 }
 
 .aboutmebox {
@@ -429,7 +431,7 @@ p {
     flex-direction: column;
     line-height: 1.6;
     padding: 40px 60px;
-    margin: 40px;
+    margin: 20px;
     /*border: 20px solid white;*/
     /*background-color: white;*/
     /*box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.4);*/
@@ -637,11 +639,6 @@ p {
     box-shadow:
         0 2px 0 hsla(0, 0%, 100%, 0.15),
         inset 0 2px 2px hsla(0, 0%, 0%, 0.5);
-    .nav-links {
-        /*display: grid;*/
-        /*grid-template-rows: repeat(1fr);
-        grid-gap: 30px;*/
-    }
 }
 
 .experience-buttons-div {
@@ -698,7 +695,7 @@ p {
     font-size: 20px;
 }
 
-@media (max-width: 65em) {
+@media (max-width: 1100px) {
     .splash h1 {
         font-size: 2em;
     }
@@ -722,7 +719,7 @@ p {
         margin-top: 40px;
     }
     .experiences-container {
-        /*display: grid;*/
+        display: flex;
         flex-direction: column;
     }
     .aboutmebox-container {
