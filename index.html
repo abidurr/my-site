@@ -6,7 +6,7 @@
         <link href="style.css" rel="stylesheet" />
         <link rel="icon" href="/favicon.ico">
         <title>Abidur Rahim | Full Stack Web Engineer</title>
-        <meta name="Description" CONTENT="Full Time Web Engineer (Full Stack Developer) with a background in Astrophysics and Data Analysis. Part Time Writer."
+        <meta name="Description" CONTENT="Full Stack Web Engineer with a background in Astrophysics. Part Time Writer."
 
     </head>
     <body>
@@ -15,9 +15,9 @@
             <nav>
                 <ul class="nav-links">
                     <!--<li><a href="#splash">Home</a></li>-->
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -79,17 +79,18 @@
                     />
                 </a>
             </p>
-            <a href="#experience" id="scroll-down">
+            <a href="#scroll-down-anchor" id="scroll-down">
                 <img height="100px" src="./img/down-arrow.png" alt="" />
             </a>
         </div>
+            <div id="scroll-down-anchor"></div>
 
-        <div class="middle-nav">
+        <div class="middle-nav" id="middle-nav-links">
             <ul class="nav-links">
                 <!--<li><a href="#splash">Home</a></li>-->
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="https://www.linkedin.com/in/abidur-rahim-803758177/" target="_blank">LinkedIn</a></li>
@@ -97,6 +98,102 @@
                 <li><a href="/AbidurRahimCV.pdf" target="_blank">Résumé</a></li>
                 <li><a href="https://cal.com/abidur/30min" target="_blank">Meeting</a></li>
             </ul>
+        </div>
+
+
+        <div class="sctn" id="skills">
+            <h1 style="color: white">Skills</h1>
+            <div class="skls">
+                <div class="skl-cnt">
+                    <h3>Front-end</h3>
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>React</li>
+                        <li>Gatsby</li>
+                    </ul>
+                </div>
+
+                <div class="skl-cnt">
+                    <h3>Back-end</h3>
+
+                    <ul>
+                        <li>Node JS</li>
+                        <li>TypeScript</li>
+                        <li>PostgreSQL</li>
+                        <li>Express</li>
+                        <li>Python</li>
+                        <li>API</li>
+                    </ul>
+                </div>
+
+                <div class="skl-cnt">
+                    <h3>Data-end</h3>
+
+                    <ul>
+                        <li>SQL</li>
+                        <li>GraphQL</li>
+                        <li>MongoDB</li>
+                        <li>Mathematica</li>
+                        <li>MatLab</li>
+                        <li>R</li>
+                    </ul>
+                </div>
+
+                <div class="skl-cnt">
+                    <h3>Others</h3>
+
+                    <ul>
+                        <li>Git</li>
+                        <li>C++</li>
+                        <li>Bash</li>
+                        <li>NetLogo</li>
+                        <li>Basic</li>
+                        <li>Go</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sctn" id="experience">
+            <h1 style="color: white; margin-bottom: 26px;">Experience</h1>
+            <div class="experiences-container">
+                <div class="experience">
+                    <h2>Sellfire</h2>
+                    <h3>2024 - 2026<b> &nbsp; | &nbsp; Austin, TX</b>, USA</h3>
+                    <ul>
+                        <li>Founding engineer who started frontend project</li>
+                        <li>Most number of commits to frontend codebase</li>
+                        <li>Significant contributor to backend codebase</li>
+                    </ul>
+
+                    <div class="experience-buttons-div">
+                        <a href="https://sellfire.com/" target="_blank">
+                            <img alt="Webpage" src="img/www.png"
+                        />Website</a>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <h2>Rapptr Labs</h2>
+                    <h3>2020 - 2024<b> &nbsp; | &nbsp; New York, NY</b>, USA</h3>
+                    <ul>
+                        <li> Worked on 16+ consumer-facing applications</li>
+                        <li>Tackled both backend and frontend based on demand</li>
+                        <li>Agency experience in a fast-paced agile environment</li>
+                    </ul>
+
+                    <div class="experience-buttons-div">
+                        <a href="https://rapptrlabs.com/" target="_blank">
+                            <img alt="Webpage" src="img/www.png"
+                        />Website</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="sctn" id="about">
@@ -188,104 +285,12 @@
             </div>
         </div>
 
-        <div class="sctn" id="experience">
-            <h1 style="color: white">Experience</h1>
-            <div class="experiences-container">
-                <div class="experience">
-                    <h2>Sellfire</h2>
-                    <h3>2024 - 2026<b> &nbsp; | &nbsp; Austin, TX</b>, USA</h3>
-
-                    <ul>
-                        <li>Founding engineer who started frontend project</li>
-                        <li>Most number of commits to frontend codebase</li>
-                        <li>Significant contributor to backend codebase</li>
-                    </ul>
-
-                    <div class="experience-buttons-div">
-                        <a href="https://sellfire.com/" target="_blank">
-                            <img alt="Webpage" src="img/www.png"
-                        />Website</a>
-                    </div>
-                </div>
-                <div class="experience">
-                    <h2>Rapptr Labs</h2>
-                    <h3>2020 - 2024<b> &nbsp; | &nbsp; New York, NY</b>, USA</h3>
-                    <ul>
-                        <li> Worked on 16+ consumer-facing applications</li>
-                        <li>Tackled both backend and frontend based on demand</li>
-                        <li>Agency experience in a fast-paced agile environment</li>
-                    </ul>
-
-                    <div class="experience-buttons-div">
-                        <a href="https://rapptrlabs.com/" target="_blank">
-                            <img alt="Webpage" src="img/www.png"
-                        />Website</a>
-                    </div>
-                </div>
 
 
 
-
-            </div>
-        </div>
-
-        <div class="sctn" id="skills">
-            <h1 style="color: white">Skills</h1>
-            <div class="skls">
-                <div class="skl-cnt">
-                    <h3>Front-end</h3>
-
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>React.js</li>
-                        <li>TypeScript</li>
-                    </ul>
-                </div>
-
-                <div class="skl-cnt">
-                    <h3>Back-end</h3>
-
-                    <ul>
-                        <li>Node.js</li>
-                        <li>TypeScript</li>
-                        <li>Express</li>
-                        <li>Python</li>
-                        <li>Go</li>
-                    </ul>
-                </div>
-
-                <div class="skl-cnt">
-                    <h3>Data-end</h3>
-
-                    <ul>
-                        <li>SQL</li>
-                        <li>MongoDB</li>
-                        <li>R</li>
-                        <li>Mathematica</li>
-                        <li>MatLab</li>
-                    </ul>
-                </div>
-
-                <div class="skl-cnt">
-                    <h3>Others</h3>
-
-                    <ul>
-                        <li>Bash</li>
-                        <li>C++</li>
-                        <li>Git</li>
-                        <li>NetLogo</li>
-                        <li>Basic</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="sctn">
+        <div class="sctn" id="projects">
         <h1 style="color: white">Projects</h1>
-<div  id="projects">
+<div  id="projects-container">
 
             <div class="all-projs" id="proj13">
                 <img
