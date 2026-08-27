@@ -187,6 +187,11 @@ header {
     cursor: default;
 }
 
+/*.splash img:hover {
+    transform: scale(1.05);
+    transition: all 300ms ease-in-out;
+}*/
+
 /*#down-btn {
   top: 0;
   padding: 20%;
@@ -199,7 +204,7 @@ header {
 }*/
 
 .sctn {
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,6 +229,13 @@ header {
         #02455d,
         #003247
     );
+}
+
+.transparent-buttons-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
 }
 
 /*.sctn:nth-child(odd) {
