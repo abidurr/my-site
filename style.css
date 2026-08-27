@@ -483,7 +483,13 @@ p {
     p {
         /*justify text*/
         text-align: justify;
+        /*font-size: 20px;*/
     }
+
+    /*p::first-letter {
+        /*font-size: 36px;*/
+        /*font-weight: bold;*/
+    }*/
 }
 
 .aboutmebox ul li {
