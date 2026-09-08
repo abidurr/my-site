@@ -359,6 +359,7 @@ p {
     list-style: circle;
     list-style-type: "✔";
     padding-left: 12px;
+    color: white;
 }
 
 .skl-cnt:hover {
@@ -419,6 +420,7 @@ p {
     list-style: circle;
     list-style-type: "✔";
     padding-left: 12px;
+    color: white;
 }
 
 .experience:hover {
@@ -498,6 +500,7 @@ p {
     font-size: 18px;
     list-style: circle;
     list-style-type: "✔";
+    color: white;
     padding-left: 12px;
 }
 
