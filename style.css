@@ -214,19 +214,21 @@ header {
     /*box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.4);*/
     overflow: hidden;
     /*scroll-snap-align: start;*/
-    background-image: linear-gradient(to bottom,
-            #003243,
-            #014559,
-            #025870,
-            #036d87,
-            #02829f,
-            #0282a0,
-            #0282a0,
-            #0282a1,
-            #036d8a,
-            #035873,
-            #02455d,
-            #003247);
+    background-image: linear-gradient(
+        to bottom,
+        #003243,
+        #014559,
+        #025870,
+        #036d87,
+        #02829f,
+        #0282a0,
+        #0282a0,
+        #0282a1,
+        #036d8a,
+        #035873,
+        #02455d,
+        #003247
+    );
 }
 
 .transparent-buttons-grid {
@@ -356,9 +358,9 @@ p {
 .skl-cnt ul li {
     font-family: "Cormorant", serif;
     font-size: 18px;
-    list-style: circle;
-    list-style-type: "✔";
-    padding-left: 12px;
+    list-style: square;
+    /*list-style-type: "✔";*/
+    /*padding-left: 12px;*/
     color: white;
 }
 
@@ -417,9 +419,9 @@ p {
 .experience ul li {
     font-family: "Cormorant", serif;
     font-size: 18px;
-    list-style: circle;
-    list-style-type: "✔";
-    padding-left: 12px;
+    list-style: square;
+    /*list-style-type: "✔";*/
+    /*padding-left: 12px;*/
     color: white;
 }
 
@@ -842,7 +844,7 @@ p {
         max-width: 100%;
         min-height: 280px;
         padding: 20px;
-        padding-left: 30px;
+        padding-left: 40px;
         /*margin: 20px;*/
         /*border: 20px solid white;*/
         /*background-color: white;*/
@@ -912,10 +914,12 @@ button {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     pointer-events: auto;
     z-index: 3;
-    background: linear-gradient(-75deg,
-            rgba(255, 255, 255, 0.05),
-            rgba(255, 255, 255, 0.2),
-            rgba(255, 255, 255, 0.05));
+    background: linear-gradient(
+        -75deg,
+        rgba(255, 255, 255, 0.05),
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.05)
+    );
     border-radius: 999vw;
     box-shadow:
         inset 0 0.125em 0.125em rgba(0, 0, 0, 0.05),
@@ -984,10 +988,12 @@ button span::after {
     box-sizing: border-box;
     border-radius: 999vw;
     overflow: clip;
-    background: linear-gradient(var(--angle-2),
-            rgba(255, 255, 255, 0) 0%,
-            rgba(255, 255, 255, 0.5) 40% 50%,
-            rgba(255, 255, 255, 0) 55%);
+    background: linear-gradient(
+        var(--angle-2),
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.5) 40% 50%,
+        rgba(255, 255, 255, 0) 55%
+    );
     z-index: 3;
     mix-blend-mode: screen;
     pointer-events: none;
@@ -995,7 +1001,8 @@ button span::after {
     background-position: 0% 50%;
     background-repeat: no-repeat;
     transition:
-        background-position calc(var(--anim--hover-time) * 1.25) var(--anim--hover-ease),
+        background-position calc(var(--anim--hover-time) * 1.25)
+            var(--anim--hover-ease),
         --angle-2 calc(var(--anim--hover-time) * 1.25) var(--anim--hover-ease);
 }
 
@@ -1010,7 +1017,6 @@ button:active span::after {
 
 /* Touch Devices */
 @media (hover: none) and (pointer: coarse) {
-
     button span::after,
     button:active span::after {
         --angle-2: -45deg;
@@ -1033,15 +1039,19 @@ button::after {
     padding: var(--border-width);
     box-sizing: border-box;
     background:
-        conic-gradient(from var(--angle-1) at 50% 50%,
+        conic-gradient(
+            from var(--angle-1) at 50% 50%,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0) 5% 40%,
             rgba(0, 0, 0, 0.5) 50%,
             rgba(0, 0, 0, 0) 60% 95%,
-            rgba(0, 0, 0, 0.5)),
-        linear-gradient(180deg,
+            rgba(0, 0, 0, 0.5)
+        ),
+        linear-gradient(
+            180deg,
             rgba(255, 255, 255, 0.5),
-            rgba(255, 255, 255, 0.5));
+            rgba(255, 255, 255, 0.5)
+        );
     mask:
         linear-gradient(#000 0 0) content-box,
         linear-gradient(#000 0 0);
@@ -1049,7 +1059,8 @@ button::after {
     transition:
         all var(--anim--hover-time) var(--anim--hover-ease),
         --angle-1 500ms ease;
-    box-shadow: inset 0 0 0 calc(var(--border-width) / 2) rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 0 0 calc(var(--border-width) / 2)
+        rgba(255, 255, 255, 0.5);
 }
 
 button:hover::after {
@@ -1061,7 +1072,6 @@ button:active::after {
 }
 
 @media (hover: none) and (pointer: coarse) {
-
     button::after,
     button:hover::after,
     button:active::after {
