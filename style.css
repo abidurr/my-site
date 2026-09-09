@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fondamento|IBM+Plex+Sans|Cormorant|Spectral+SC&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fondamento|IBM+Plex+Sans|Bricolage+Grotesque|Spectral+SC&display=swap");
 
 /* Defs */
 @property --angle-1 {
@@ -147,7 +147,7 @@ header {
 }
 
 .splash p {
-    font-family: "Cormorant", sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
     font-size: 2em;
     color: white;
     text-shadow: 1px 1px gray;
@@ -296,13 +296,13 @@ h1 {
 }
 
 p {
-    font-family: "Cormorant", sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
     font-size: 18px;
     line-height: 1.6;
 }
 
 .skls {
-    font-family: "Cormorant", serif;
+    font-family: "Bricolage Grotesque", serif;
     /*display: flex;
     flex-direction: row;
     justify-items: space-around;
@@ -315,7 +315,7 @@ p {
 }
 
 .experiences-container {
-    font-family: "Cormorant", serif;
+    font-family: "Bricolage Grotesque", serif;
     display: flex;
     flex-direction: row;
     justify-items: space-around;
@@ -324,7 +324,7 @@ p {
 }
 
 .skl-cnt {
-    font-family: "Cormorant", serif;
+    font-family: "Bricolage Grotesque", serif;
     min-width: 200px;
     min-height: 250px;
     display: flex;
@@ -356,7 +356,7 @@ p {
 }
 
 .skl-cnt ul li {
-    font-family: "Cormorant", serif;
+    font-family: "Bricolage Grotesque", serif;
     font-size: 18px;
     list-style: square;
     /*list-style-type: "✔";*/
@@ -373,7 +373,7 @@ p {
 }
 
 .experience {
-    font-family: "Cormorant", serif;
+    font-family: "Bricolage Grotesque", serif;
     min-width: 500px;
     width: max-content;
     max-width: 1000px;
@@ -417,7 +417,7 @@ p {
 }
 
 .experience ul li {
-    font-family: "Cormorant", serif;
+    font-family: "Bricolage Grotesque", serif;
     font-size: 18px;
     list-style: square;
     /*list-style-type: "✔";*/
@@ -434,7 +434,7 @@ p {
 }
 
 .aboutmebox-container {
-    font-family: "Cormorant", serif;
+    font-family: "Bricolage Grotesque", serif;
     display: flex;
     flex-direction: row;
     justify-items: space-around;
@@ -445,7 +445,7 @@ p {
 }
 
 .aboutmebox {
-    font-family: "Cormorant", serif;
+    font-family: "Bricolage Grotesque", serif;
     /*min-width: 500px;*/
     min-width: 500px;
     max-width: 600px;
@@ -498,7 +498,7 @@ p {
 }
 
 .aboutmebox ul li {
-    font-family: "Cormorant", serif;
+    font-family: "Bricolage Grotesque", serif;
     font-size: 18px;
     list-style: circle;
     list-style-type: "✔";
@@ -517,7 +517,7 @@ p {
 #about {
     display: flex;
     flex-direction: column;
-    font-family: "Cormorant", sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
     color: white;
     font-size: 18px;
 }
@@ -838,7 +838,7 @@ p {
     }
 
     .experience {
-        font-family: "Cormorant", serif;
+        font-family: "Bricolage Grotesque", serif;
         min-width: 100%;
         width: 100%;
         max-width: 100%;
