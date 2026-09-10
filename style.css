@@ -450,7 +450,7 @@ p {
     min-width: 500px;
     max-width: 600px;
     min-height: 280px;
-
+    hyphens: auto;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
