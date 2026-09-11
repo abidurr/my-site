@@ -957,7 +957,7 @@ button span {
     -moz-user-select: none;
     -ms-user-select: none;
     font-family: "Spectral SC", sans-serif;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     font-weight: 600;
     /*font-size: 1em;*/
     font-size: 18px;
