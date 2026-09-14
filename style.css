@@ -834,6 +834,11 @@ p {
     #projects-container {
         padding: 0px;
         margin: 10px;
+    }
+    .ftr {
+        min-height: 35vh;
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px) {
