@@ -126,6 +126,10 @@ header {
     color: black;
 }
 
+.splash-icon {
+    margin: 20px;
+}
+
 .splash h1 {
     font-family: "Spectral SC", serif;
     font-size: 3em;
