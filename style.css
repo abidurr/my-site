@@ -406,14 +406,14 @@ p {
     h2 {
         font-family: "Spectral SC";
         font-size: 32px;
-        padding-left: 12px;
+        /*padding-left: 12px;*/
     }
 
     h3 {
         /*font-family: "Spectral SC";*/
         font-size: 20px;
-        padding-left: 12px;
         margin-bottom: 12px;
+        /*padding-left: 12px;*/
     }
 }
 
