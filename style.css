@@ -857,7 +857,7 @@ p {
         margin: 10px;
     }
     .ftr {
-        min-height: 35vh;
+        min-height: 25vh;
         text-align: center;
     }
 }
