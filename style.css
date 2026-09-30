@@ -565,13 +565,13 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     /*grid-template-rows: 1fr 1fr 2fr 2fr 1fr 1fr;*/
     grid-template-areas:
-        "proj14 proj11 proj13"
-        "proj12 proj9 proj8"
-        "proj12 proj9 proj10"
-        "proj7 proj6 proj5"
-        "proj4 proj3 proj1"
-        "proj4 proj2 proj1";
+        "proj15 proj14 proj13"
+        "proj10 proj11 proj12"
+        "proj8 proj9 proj7"
+        "proj6 proj4 proj5"
+        "proj3 proj1 proj2";
     /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
+    align-items: center;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
 
