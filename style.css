@@ -374,6 +374,8 @@ p {
 
     h3 {
         font-family: "Spectral SC";
+        font-size: 22px;
+        letter-spacing: 1px;
     }
 }
 
@@ -427,6 +429,7 @@ p {
     h2 {
         font-family: "Spectral SC";
         font-size: 32px;
+        letter-spacing: 1px;
         /*padding-left: 12px;*/
     }
 
