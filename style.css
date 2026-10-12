@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fondamento|IBM+Plex+Sans|Bricolage+Grotesque|Spectral+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fondamento&family=Spectral+SC&display=swap");
 
 /* Defs */
 @property --angle-1 {
@@ -436,7 +436,8 @@ p {
     h3 {
         /*font-family: "Spectral SC";*/
         font-size: 20px;
-        margin-bottom: 12px;
+        margin-bottom: 8px;
+        font-weight: 600;
         /*padding-left: 12px;*/
     }
 }
