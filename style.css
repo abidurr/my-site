@@ -567,14 +567,14 @@ p {
     padding: 100px 50px 50px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /*grid-template-rows: 1fr 1fr 2fr 2fr 1fr 1fr;*/
     grid-template-areas:
-        "proj15 proj14 proj13"
-        "proj10 proj11 proj12"
-        "proj8 proj9 proj7"
-        "proj6 proj4 proj5"
-        "proj3 proj1 proj2";
-    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
+        "proj18 proj19 proj17"
+        "proj13 proj15 proj14"
+        "proj16 proj10 proj11"
+        "proj12 proj8 proj9"
+        "proj7 proj6 proj4"
+        "proj5 proj1 proj2"
+        "proj5 proj1 proj3";
     align-items: center;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -639,6 +639,21 @@ p {
 
 #proj14 {
     grid-area: proj14;
+}
+#proj15 {
+    grid-area: proj15;
+}
+#proj16 {
+    grid-area: proj16;
+}
+#proj17 {
+    grid-area: proj17;
+}
+#proj18 {
+    grid-area: proj18;
+}
+#proj19 {
+    grid-area: proj19;
 }
 
 .proj-img {
